@@ -1,0 +1,111 @@
+/*AQUI É O TAMANHO RESPONSIVO PARA UM CELULAR DE 600PX*/
+@media only screen and (max-width: 600px) {
+
+    /*Aqui é o cabeçalho*/
+
+    header img {
+        width: auto;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header h2 {
+        font-size: 25px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /*Aqui é a seção azul*/
+    .texto {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+    }
+
+    /*Aqui começa a seção de cards*/
+    .primeiros-3-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .segundo-3-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .terceiro-3-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    .secao-quem-somos button {
+        width: auto;
+    }
+}
+
+/*AQUI ACABA O TAMANHO RESPONSIVO PARA O CELULAR DE 600PX*/
+
+/*AQUI COMEÇA O TAMANHO RESPONSIVO PARA TABLETS*/
+
+@media only screen and (min-width: 768px) and (max-width:1300px) {
+
+    /*seção azul*/
+    .texto {
+        height: auto;
+    }
+
+    /*seção de cards*/
+    .primeiros-3-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .segundo-3-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .terceiro-3-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 60%;
+    }
+}
+
+/*AQUI ACABA O TAMANHO RESPONSIVO PARA TABLETS*/
+
+/*AQUI É UM TESTE*/
+@media only screen and (max-width: 500px) {
+
+    .secao-quem-somos button {
+        width: auto;
+    }
+
+    header img {
+        width: 100%;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}

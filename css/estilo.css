@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+/*AQUI É O CABEÇALHO*/
+
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 700px;
+    line-height: 1;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+header h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #49ffbd;
+    font-weight: 700px;
+    font-size: 31px;
+    line-height: 1;
+    margin-top: 0%;
+}
+
+header img {
+    width: 770px;
+    padding-bottom: 40px;
+}
+
+/*AQUI ACABA O CABEÇALHO*/
+
+/*AQUI COMEÇA A SEÇÃO AZUL*/
+.secao-azul {
+    /* background-image: url("../img/copia2-otmz.png"); */
+    background-image: url("../img/copia2-otmz.avif");
+    background-size: cover;
+    height: auto;
+    color: white;
+    padding-top: 0.5px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.pq {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 0%;
+    padding-top: 20px;
+    font-weight: 800px;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 80px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 1px solid white;
+    border-width: 1px 1px 3px;
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+.texto p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300px;
+}
+
+.texto img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/*AQUI ACABA A SEÇÃO AZUL*/
+
+/*AQUI COMEÇA A SEÇÃO DE CARDS*/
+
+.secao-cards {
+    background: white;
+}
+
+.h2-cards {
+    padding-top: 20px;
+    text-align: center;
+    color: #0e2170;
+    font-weight: 800px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    border-bottom: solid #0e2170;
+    font-family: 'Poppins', sans-serif;
+    width: 28%;
+    height: 325px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}
+
+.card h3 {
+    color: #0e2170;
+}
+
+.card p {
+    color: gray;
+}
+
+.card img {
+    width: 60px;
+}
+
+.primeiros-3-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#primeiro-card-meio {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.segundo-3-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#segundo-card-meio {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.terceiro-3-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#terceiro-card-meio {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*AQUI ACABA A SEÇÃO DE CARDS*/
+
+/*AQUI COMEÇA A SEÇÃO DE QUEM SOMOS*/
+
+.secao-quem-somos h2 {
+    text-align: center;
+    color: rgb(14, 33, 112);
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 800px;
+    padding-top: 20px;
+}
+
+.fundo-branco-texto {
+    background-image: url("../img/fundo-branco-otmz.avif");
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fundo-branco-texto p {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    font-size: 15px;
+}
+
+.botao {
+    text-align: center;
+}
+
+button {
+    border: none;
+    background-image: linear-gradient(to right bottom, #49ffbd, #0e2170);
+    width: 450px;
+    height: 50px;
+    border-radius: 35px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+}
+
+/*AQUI ACABA A SEÇÃO DE QUEM SOMOS*/
+/*AQUI COMEÇA O RODAPÉ*/
+
+footer {
+    text-align: center;
+    background: #0e2170;
+    border-top: solid 3px #49ffbd;
+    margin-top: 40px;
+}
+
+.logo-rodape {
+    width: 150px;
+    margin-top: 20px;
+}
+
+footer p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.insta {
+    background: rgb(240, 85, 80);
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 4px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.vermelhos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/*AQUI ACABA O RODAPÉ*/
