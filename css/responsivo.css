@@ -158,3 +158,13 @@
         display: none;
     }
 }
+
+
+
+/* teste */
+@media only screen and (max-width:600px) {
+    .secao-quem-somos button {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
