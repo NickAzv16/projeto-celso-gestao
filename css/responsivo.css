@@ -77,11 +77,14 @@
 
     .secao-quem-somos button {
         width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .secao-quem-somos button a {
         padding: 23px;
     }
+
 }
 
 /*AQUI ACABA O TAMANHO RESPONSIVO PARA O CELULAR DE 600PX*/
