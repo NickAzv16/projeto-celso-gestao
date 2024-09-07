@@ -228,3 +228,44 @@
         padding-right: 10px;
     }
 }
+
+/* Resolvendo um probleminha no card 6*/
+@media only screen and (max-width:1425px) {
+    .c6 h3 {
+        line-height: 1.2;
+        margin-bottom: -7px;
+        margin-top: -4px;
+    }
+}
+
+/* Resolvendo problema de escrita fora do card 9 */
+@media only screen and (max-width:1329px) and (min-width:1300px) {
+    .c9 p {
+        font-size: 14px;
+    }
+}
+
+
+/* Resolvendo problema pq os cards nesse tamanho tá mt feio*/
+@media only screen and (max-width:767px) and (min-width:601px) {
+    .card img {
+        width: 50px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .linha h3 {
+        line-height: 1.2;
+        margin-bottom: -6px;
+    }
+
+    .letra p {
+        font-size: 10.5px;
+    }
+}
