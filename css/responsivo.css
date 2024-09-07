@@ -230,7 +230,7 @@
 }
 
 /* Resolvendo um probleminha no card 6*/
-@media only screen and (max-width:1425px) {
+@media only screen and (max-width:1440px) {
     .c6 h3 {
         line-height: 1.2;
         margin-bottom: -7px;
