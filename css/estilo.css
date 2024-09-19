@@ -282,6 +282,11 @@ footer {
     background: #0e2170;
     border-top: solid 3px #49ffbd;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
 }
 
 .logo-rodape {
