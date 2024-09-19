@@ -296,28 +296,4 @@ footer p {
     line-height: 1;
 }
 
-.insta {
-    background: rgb(240, 85, 80);
-    width: 35px;
-    height: 35px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-right: 4px;
-    transition: transform 0.3s ease;
-
-    &:hover {
-        transform: scale(1.1);
-    }
-}
-
-.vermelhos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
-}
-
 /*AQUI ACABA O RODAPÉ*/
